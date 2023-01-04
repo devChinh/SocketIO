@@ -1,0 +1,88 @@
+.c-container {
+    display: grid;
+  grid-template-rows: 10% 75% 15%;
+  overflow: hidden;
+  background-color: #080420;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 1rem;
+}
+
+.brand img{
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.brand h3{
+    color : #fff;
+    text-transform : uppercase;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    gap: 0.8rem;
+}
+
+
+.contacts::-webkit-scrollbar {
+    width: 0.2rem;
+    background-color: #fff;
+  }
+
+  .contacts::-webkit-thumb {
+    background-color: #000;
+    width: 0.1rem;
+    border-radius: 1rem;
+  }
+
+.contacts .contact{
+    background-color: #ffffff34;
+    min-height: 5rem;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.contacts .selected{
+    background-color: #9a86f3;
+    border : none;
+}
+
+.contacts .avatar img{
+    height: 3rem;
+}
+
+.contacts .username h3{
+    color : white;
+}
+
+.current-user {
+    background-color: #0d0d30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.current-user .avatar img{
+    height: 4rem;
+    max-inline-size: 100%;
+}
+
+.current-user .username h2 {
+    color : #fff;
+}

@@ -1,0 +1,78 @@
+.l-container{
+    height : 100vh;
+width : 100vw;
+display : flex ;
+flex-direction : column;
+justify-content : center;
+gap : 1rem;
+align-items : center;
+background-color : #131324;
+}
+
+.l-container form .brand {
+    display: flex;
+    align-items: center;
+    gap : 1rem;
+    justify-content: center;
+}
+
+.l-container form .brand img{
+    height: 5rem;
+}
+
+.l-container form .brand h1{
+    color : white !important;
+    text-transform: uppercase !important;
+}
+
+.l-container form {
+    display: flex;
+    flex-direction: column;
+    background-color: #00000076;
+    border-radius: 2rem;
+    gap : 2rem;
+    padding: 3rem 5rem;
+}
+
+.l-container form input {
+    background-color: transparent;
+    padding: 1rem;
+    border : 0.1rem solid #4e0eff;
+    border-radius: 0.4rem;
+    color :white;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.l-container form input:focus{
+    border : 0.1rem solid #997af0;
+    outline: none;
+}
+
+.l-container form button {
+    background-color: #997af0;
+    color :white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius : 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.5s
+}
+
+.l-container form button:hover {
+    background-color: #4e0eff;
+}
+
+.l-container form span{
+    color :white;
+    text-transform: uppercase;
+}
+
+.l-container form span a{
+    color : #4e0eff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
